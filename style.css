@@ -1,0 +1,92 @@
+/* Center everything on the page */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8dede;
+    padding: 50px;
+}
+
+/* Headings */
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+h2 {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Labels and inputs stacked vertically */
+label, input {
+    display: block;
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+/* Inputs styling */
+input {
+    padding: 8px;
+    width: 250px;
+    border-radius: 5px;
+    border: 2px solid #171a22;
+}
+
+/* Buttons styling */
+button {
+    padding: 10px 25px;
+    font-size: 18px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #ef5555;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff0000;
+}
+
+/* Result div */
+#resultDiv {
+    display: none;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: #fff0f0;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ef5555;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+  
+}
+#resultDiv.show {
+  display: block;
+  opacity: 1;
+}
+#formDiv {
+  transition: opacity 0.8s ease;
+}
+#formDiv.hide {
+  opacity: 0;
+}
+
+#resultDiv h1 {
+    color: #a81100;
+    margin-bottom: 10px;
+}
+
+#bmiValue {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#bmiMessage {
+    font-size: 20px;
+    color: #555;
+}
+
+
